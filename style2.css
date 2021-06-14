@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&family=Patrick+Hand&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+} 
+
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(61deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    width: 1080px;
+    height: 1920px;
+    font-family: 'Jost', sans-serif;
+
+    
+    
+}
+
+.contenedor {
+    display: block;
+    width: 400px;
+    height: 400px;
+    background: white;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: inset black;
+
+    
+    
+
+}
+
+header .simbolo {
+    font-size: 50px;
+    padding: 10px 20px;
+    color: rgb(20, 177, 216);;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.login input {
+    padding: 10px 10px;
+    border: none;
+    border-bottom: 1px solid rgb(20, 177, 216);
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    
+}
+
+input::placeholder{
+    color: rgb(20, 177, 216);
+    border:none;
+}
+
+.btn {
+    margin-top: 40px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border:none;
+    background: rgb(20, 177, 216);
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+}
+
+footer {
+    display: grid;
+    align-items: center;
+    font-weight: 10px;
+    
+}
+
+footer .singin {
+    font-weight: bolder;
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: white;
+}
+
+.contenedor {
+    height: 500px;
+    width: 250px;
+    display: block;
+    background: rgb(67,25,91);
+    background: linear-gradient(0deg, rgba(67,25,91,1) 5%, rgba(232,112,199,1) 51%, rgba(228,106,158,1) 84%);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    align-items: center;
+
+}
+
+.header {
+    margin:0;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.header .Hello {
+    font-size: 50px;
+}
+
+
+
+.login {
+    margin: 30px;
+    display: block;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  
+    
+}
+
+#name::placeholder {
+    color: rgb(216, 208, 208);
+    font-family: 'Open Sans', sans-serif;
+}
+#email::placeholder {
+    color: rgb(216, 208, 208);
+    font-family: 'Open Sans', sans-serif;
+}
+#password::placeholder {
+    color: rgb(216, 208, 208);
+    font-family: 'Open Sans', sans-serif;
+}
+#name {
+    padding: 10px 10px;
+    background: #8080801f;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    
+    
+}
+
+#email {
+    padding: 10px 10px;
+    background: #8080801f;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    
+    
+}
+
+#password {
+    padding: 10px 10px;
+    background: #8080801f;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    
+    
+}
+
+.btn {
+    background: hotpink;
+    border: none;
+    display: block;
+    padding: 10px 75px;
+    text-align: center;
+    color:white;
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+}
+
+footer .singin {
+    color: indianred;
+}
